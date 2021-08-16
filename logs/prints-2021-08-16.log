@@ -1,0 +1,450 @@
+00:59:28.201 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Driver initialized successfully
+00:59:28.201 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+00:59:37.347 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+00:59:37.483 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered URL : https://emicalculator.net/
+00:59:37.486 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Started test execution => 
+00:59:38.508 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered loan Amount = 500000
+00:59:38.790 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 500000
+00:59:39.177 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered interest rate = 7.5
+00:59:39.279 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 13
+00:59:39.691 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered tenure = 10
+00:59:39.734 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 4
+00:59:39.785 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Actual EMI = 5,935
+00:59:39.846 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 13,414
+00:59:39.939 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+00:59:39.939 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Test Case testHomeLoanEMI PASSED successfully
+00:59:40.902 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+00:59:40.943 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Closed the browser
+00:59:42.792 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Driver initialized successfully
+00:59:42.849 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+00:59:47.941 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+00:59:48.128 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered URL : https://emicalculator.net/
+00:59:48.131 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Started test execution => 
+00:59:49.152 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered loan Amount = 500000
+00:59:49.467 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 400000
+00:59:49.568 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered interest rate = 8
+00:59:49.770 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 15
+00:59:50.216 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 3
+00:59:50.301 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 13,866
+00:59:50.409 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+00:59:50.609 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered tenure = 15
+00:59:50.702 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Actual EMI = 4,778
+00:59:50.861 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Test Case testHomeLoanEMI PASSED successfully
+00:59:51.339 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+00:59:51.752 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Closed the browser
+00:59:53.134 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+00:59:53.740 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Driver initialized successfully
+00:59:58.470 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+00:59:58.778 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered URL : https://emicalculator.net/
+00:59:58.778 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Started test execution => 
+00:59:59.457 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered loan Amount = 800000
+01:00:00.040 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 450000
+01:00:00.540 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered interest rate = 8
+01:00:00.588 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 13.5
+01:00:01.031 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 2
+01:00:01.114 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 21,500
+01:00:01.160 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered tenure = 15
+01:00:01.205 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:00:01.256 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Actual EMI = 7,645
+01:00:01.380 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Test Case testHomeLoanEMI FAILED
+01:00:02.035 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:00:02.965 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Closed the browser
+01:00:03.639 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:00:04.596 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Driver initialized successfully
+01:00:09.283 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:00:09.381 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered URL : https://emicalculator.net/
+01:00:10.717 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 1000000
+01:00:11.139 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered loan Amount = 400000
+01:00:11.407 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 12
+01:00:11.582 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered interest rate = 12.5
+01:00:11.861 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered tenure = 5
+01:00:11.921 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Actual EMI = 8,999
+01:00:11.957 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 5
+01:00:12.008 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Test Case testCarLoanEMI PASSED successfully
+01:00:12.099 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 22,244
+01:00:12.223 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:00:13.007 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Closed the browser
+01:00:13.158 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:00:14.478 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Driver initialized successfully
+01:00:17.952 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered URL : https://emicalculator.net/
+01:00:18.983 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered loan Amount = 500000
+01:00:19.662 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered interest rate = 10
+01:00:20.241 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered tenure = 6
+01:00:20.315 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Actual EMI = 9,263
+01:00:20.458 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Test Case testCarLoanEMI PASSED successfully
+01:00:21.319 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Closed the browser
+01:17:49.784 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:17:49.771 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Driver initialized successfully
+01:17:55.620 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered URL : https://emicalculator.net/
+01:17:55.637 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Started test execution => 
+01:17:55.806 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:17:56.765 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered loan Amount = 500000
+01:17:57.294 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 500000
+01:17:57.548 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered interest rate = 7.5
+01:17:57.780 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 13
+01:17:58.189 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered tenure = 10
+01:17:58.240 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 4
+01:17:58.514 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Actual EMI = 5,935
+01:17:58.515 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 13,414
+01:17:58.658 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:17:58.658 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Test Case testHomeLoanEMI PASSED successfully
+01:17:59.580 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Closed the browser
+01:17:59.663 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:18:01.369 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Driver initialized successfully
+01:18:01.457 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:18:07.335 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:18:07.392 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered URL : https://emicalculator.net/
+01:18:07.397 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Started test execution => 
+01:18:08.034 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered loan Amount = 500000
+01:18:08.915 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 400000
+01:18:09.116 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered interest rate = 8
+01:18:09.378 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 15
+01:18:09.697 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 3
+01:18:09.733 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered tenure = 15
+01:18:09.813 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 13,866
+01:18:09.843 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Actual EMI = 4,778
+01:18:09.900 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:18:10.051 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Test Case testHomeLoanEMI PASSED successfully
+01:18:10.832 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:18:10.917 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Closed the browser
+01:18:12.652 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:18:12.768 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Driver initialized successfully
+01:18:17.922 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:18:18.052 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered URL : https://emicalculator.net/
+01:18:18.053 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Started test execution => 
+01:18:18.665 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered loan Amount = 800000
+01:18:19.263 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 450000
+01:18:19.589 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 13.5
+01:18:19.704 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered interest rate = 8
+01:18:20.107 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 2
+01:18:20.277 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 21,500
+01:18:20.308 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered tenure = 15
+01:18:20.393 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Actual EMI = 7,645
+01:18:20.400 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:18:20.559 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Test Case testHomeLoanEMI FAILED
+01:18:21.274 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:18:22.237 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Closed the browser
+01:18:22.931 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:18:23.991 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Driver initialized successfully
+01:18:28.707 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered URL : https://emicalculator.net/
+01:18:28.738 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:18:30.421 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 1000000
+01:18:30.440 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered loan Amount = 400000
+01:18:30.773 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 12
+01:18:30.795 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered interest rate = 12.5
+01:18:31.128 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered tenure = 5
+01:18:31.235 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Actual EMI = 8,999
+01:18:31.258 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 5
+01:18:31.326 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Test Case testCarLoanEMI PASSED successfully
+01:18:31.510 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 22,244
+01:18:31.593 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:18:32.233 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Closed the browser
+01:18:32.468 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:18:33.764 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Driver initialized successfully
+01:18:38.874 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered URL : https://emicalculator.net/
+01:18:39.823 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered loan Amount = 500000
+01:18:40.389 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered interest rate = 10
+01:18:40.842 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered tenure = 6
+01:18:40.943 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Actual EMI = 9,263
+01:18:41.060 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Test Case testCarLoanEMI PASSED successfully
+01:18:41.955 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Closed the browser
+01:31:36.067 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Driver initialized successfully
+01:31:36.077 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:31:50.496 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered URL : https://emicalculator.net/
+01:31:50.514 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Started test execution => 
+01:31:51.545 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered loan Amount = 500000
+01:31:52.271 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered interest rate = 7.5
+01:31:52.906 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered tenure = 10
+01:31:53.039 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Actual EMI = 5,935
+01:31:53.206 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Test Case testHomeLoanEMI PASSED successfully
+01:31:54.148 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Closed the browser
+01:31:55.926 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Driver initialized successfully
+01:31:56.293 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:31:57.199 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 500000
+01:31:57.754 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 13
+01:31:58.282 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 4
+01:31:58.395 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 13,414
+01:31:58.650 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:31:59.614 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:32:01.355 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:32:11.960 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered URL : https://emicalculator.net/
+01:32:11.962 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Started test execution => 
+01:32:12.989 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered loan Amount = 500000
+01:32:13.670 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered interest rate = 8
+01:32:14.341 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered tenure = 15
+01:32:14.516 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Actual EMI = 4,778
+01:32:14.756 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Test Case testHomeLoanEMI PASSED successfully
+01:32:15.751 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Closed the browser
+01:32:17.581 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Driver initialized successfully
+01:32:17.922 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:32:18.964 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 400000
+01:32:19.470 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 15
+01:32:19.812 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 3
+01:32:19.894 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 13,866
+01:32:20.056 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:32:20.947 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:32:22.476 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:32:29.558 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered URL : https://emicalculator.net/
+01:32:29.562 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Started test execution => 
+01:32:30.353 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered loan Amount = 800000
+01:32:31.085 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered interest rate = 8
+01:32:32.051 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered tenure = 15
+01:32:32.261 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Actual EMI = 7,645
+01:32:32.397 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Test Case testHomeLoanEMI FAILED
+01:32:34.191 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Closed the browser
+01:32:35.652 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:32:35.961 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Driver initialized successfully
+01:32:36.765 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 450000
+01:32:37.433 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 13.5
+01:32:38.085 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 2
+01:32:38.165 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 21,500
+01:32:38.272 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:32:39.136 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:32:40.841 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:32:53.493 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered URL : https://emicalculator.net/
+01:32:55.046 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered loan Amount = 400000
+01:32:55.416 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered interest rate = 12.5
+01:32:55.826 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered tenure = 5
+01:32:55.921 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Actual EMI = 8,999
+01:32:56.028 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Test Case testCarLoanEMI PASSED successfully
+01:32:56.933 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Closed the browser
+01:32:58.512 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:32:58.601 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Driver initialized successfully
+01:32:59.960 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 1000000
+01:33:00.577 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 12
+01:33:00.956 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 5
+01:33:01.043 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 22,244
+01:33:01.141 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:33:02.109 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:33:14.614 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered URL : https://emicalculator.net/
+01:33:16.048 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered loan Amount = 500000
+01:33:16.426 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered interest rate = 10
+01:33:16.827 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered tenure = 6
+01:33:16.892 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Actual EMI = 9,263
+01:33:17.000 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Test Case testCarLoanEMI PASSED successfully
+01:33:18.095 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Closed the browser
+01:39:58.647 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Driver initialized successfully
+01:39:58.664 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:40:08.944 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:40:09.285 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered URL : https://emicalculator.net/
+01:40:09.287 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Started test execution => 
+01:40:10.329 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered loan Amount = 500000
+01:40:10.645 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 500000
+01:40:11.080 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 13
+01:40:11.096 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered interest rate = 7.5
+01:40:11.526 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 4
+01:40:11.613 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 13,414
+01:40:11.625 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered tenure = 10
+01:40:11.725 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Actual EMI = 5,935
+01:40:11.744 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:40:11.877 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Test Case testHomeLoanEMI PASSED successfully
+01:40:12.656 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:40:12.807 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Closed the browser
+01:40:14.540 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:40:14.617 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Driver initialized successfully
+01:40:24.799 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered URL : https://emicalculator.net/
+01:40:24.800 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Started test execution => 
+01:40:25.359 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:40:25.537 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered loan Amount = 500000
+01:40:26.251 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered interest rate = 8
+01:40:26.853 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 400000
+01:40:26.939 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered tenure = 15
+01:40:27.026 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Actual EMI = 4,778
+01:40:27.174 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Test Case testHomeLoanEMI PASSED successfully
+01:40:27.185 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 15
+01:40:27.654 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 3
+01:40:27.719 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 13,866
+01:40:27.831 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:40:28.070 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Closed the browser
+01:40:28.781 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:40:29.700 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Driver initialized successfully
+01:40:30.660 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:40:39.219 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered URL : https://emicalculator.net/
+01:40:39.220 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Started test execution => 
+01:40:40.107 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:40:40.444 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered loan Amount = 800000
+01:40:41.268 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered interest rate = 8
+01:40:41.819 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 450000
+01:40:41.929 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered tenure = 15
+01:40:42.001 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Actual EMI = 7,645
+01:40:42.134 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 13.5
+01:40:42.175 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Test Case testHomeLoanEMI FAILED
+01:40:42.653 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 2
+01:40:42.841 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 21,500
+01:40:42.926 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:40:43.813 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:40:43.845 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Closed the browser
+01:40:45.441 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Driver initialized successfully
+01:40:45.532 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:40:55.500 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered URL : https://emicalculator.net/
+01:40:56.299 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:40:56.653 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered loan Amount = 400000
+01:40:57.239 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered interest rate = 12.5
+01:40:57.626 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered tenure = 5
+01:40:57.695 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Actual EMI = 8,999
+01:40:57.768 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Test Case testCarLoanEMI PASSED successfully
+01:40:57.810 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 1000000
+01:40:58.247 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 12
+01:40:58.681 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Closed the browser
+01:40:58.814 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 5
+01:40:58.873 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 22,244
+01:40:58.971 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:40:59.910 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:41:00.304 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Driver initialized successfully
+01:41:10.696 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered URL : https://emicalculator.net/
+01:41:11.770 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered loan Amount = 500000
+01:41:12.452 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered interest rate = 10
+01:41:12.962 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered tenure = 6
+01:41:13.051 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Actual EMI = 9,263
+01:41:13.147 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Test Case testCarLoanEMI PASSED successfully
+01:41:14.101 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Closed the browser
+01:42:36.507 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:42:36.518 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Driver initialized successfully
+01:42:47.248 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:42:48.452 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 500000
+01:42:49.118 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 13
+01:42:49.676 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 4
+01:42:49.762 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 13,414
+01:42:49.902 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:42:50.819 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:42:52.487 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:43:02.105 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:43:03.554 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 400000
+01:43:04.280 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 15
+01:43:04.764 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 3
+01:43:04.830 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 13,866
+01:43:04.949 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:43:05.875 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:43:07.458 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:43:07.523 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered URL : https://emicalculator.net/
+01:43:07.526 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Started test execution => 
+01:43:08.321 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered loan Amount = 500000
+01:43:08.965 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered interest rate = 7.5
+01:43:09.484 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered tenure = 10
+01:43:09.579 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Actual EMI = 5,935
+01:43:09.717 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Test Case testHomeLoanEMI PASSED successfully
+01:43:10.641 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Closed the browser
+01:43:12.147 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Driver initialized successfully
+01:43:18.068 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:43:19.619 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 450000
+01:43:19.935 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 13.5
+01:43:20.652 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 2
+01:43:20.816 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 21,500
+01:43:21.003 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:43:21.906 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:43:22.151 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered URL : https://emicalculator.net/
+01:43:22.153 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Started test execution => 
+01:43:23.304 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered loan Amount = 500000
+01:43:23.560 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:43:24.167 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered interest rate = 8
+01:43:24.806 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered tenure = 15
+01:43:24.913 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Actual EMI = 4,778
+01:43:25.048 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Test Case testHomeLoanEMI PASSED successfully
+01:43:26.052 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Closed the browser
+01:43:27.603 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Driver initialized successfully
+01:43:33.815 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:43:35.432 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 1000000
+01:43:36.105 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 12
+01:43:36.580 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 5
+01:43:36.694 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 22,244
+01:43:36.922 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:43:37.158 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered URL : https://emicalculator.net/
+01:43:37.161 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Started test execution => 
+01:43:37.785 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered loan Amount = 800000
+01:43:37.938 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:43:38.389 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered interest rate = 8
+01:43:39.317 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered tenure = 15
+01:43:39.664 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Actual EMI = 7,645
+01:43:39.893 [TestNG-test=EMI Test-2] INFO  testcases.CarLoanEMI - Driver initialized successfully
+01:43:39.933 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Test Case testHomeLoanEMI FAILED
+01:43:41.872 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Closed the browser
+01:43:48.884 [TestNG-test=EMI Test-2] INFO  testcases.CarLoanEMI - Entered URL : https://emicalculator.net/
+01:43:49.851 [TestNG-test=EMI Test-2] INFO  testcases.CarLoanEMI - Entered loan Amount = 400000
+01:43:50.252 [TestNG-test=EMI Test-2] INFO  testcases.CarLoanEMI - Entered interest rate = 12.5
+01:43:50.631 [TestNG-test=EMI Test-2] INFO  testcases.CarLoanEMI - Entered tenure = 5
+01:43:50.710 [TestNG-test=EMI Test-2] INFO  testcases.CarLoanEMI - Actual EMI = 8,999
+01:43:50.858 [TestNG-test=EMI Test-2] INFO  testcases.CarLoanEMI - Test Case testCarLoanEMI PASSED successfully
+01:43:51.718 [TestNG-test=EMI Test-2] INFO  testcases.CarLoanEMI - Closed the browser
+01:43:53.332 [TestNG-test=EMI Test-2] INFO  testcases.CarLoanEMI - Driver initialized successfully
+01:44:03.688 [TestNG-test=EMI Test-2] INFO  testcases.CarLoanEMI - Entered URL : https://emicalculator.net/
+01:44:05.121 [TestNG-test=EMI Test-2] INFO  testcases.CarLoanEMI - Entered loan Amount = 500000
+01:44:05.812 [TestNG-test=EMI Test-2] INFO  testcases.CarLoanEMI - Entered interest rate = 10
+01:44:06.129 [TestNG-test=EMI Test-2] INFO  testcases.CarLoanEMI - Entered tenure = 6
+01:44:06.326 [TestNG-test=EMI Test-2] INFO  testcases.CarLoanEMI - Actual EMI = 9,263
+01:44:06.426 [TestNG-test=EMI Test-2] INFO  testcases.CarLoanEMI - Test Case testCarLoanEMI PASSED successfully
+01:44:07.345 [TestNG-test=EMI Test-2] INFO  testcases.CarLoanEMI - Closed the browser
+01:48:47.993 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:48:47.993 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Driver initialized successfully
+01:48:58.843 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:48:59.267 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered URL : https://emicalculator.net/
+01:48:59.268 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Started test execution => 
+01:49:00.074 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered loan Amount = 500000
+01:49:00.421 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 500000
+01:49:00.996 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 13
+01:49:01.176 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered interest rate = 7.5
+01:49:01.478 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 4
+01:49:01.584 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 13,414
+01:49:01.714 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:49:01.853 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered tenure = 10
+01:49:01.955 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Actual EMI = 5,935
+01:49:02.075 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Test Case testHomeLoanEMI PASSED successfully
+01:49:02.644 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:49:02.917 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Closed the browser
+01:49:04.707 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:49:04.844 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Driver initialized successfully
+01:49:14.535 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered URL : https://emicalculator.net/
+01:49:14.536 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Started test execution => 
+01:49:15.559 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered loan Amount = 500000
+01:49:15.978 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:49:16.186 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered interest rate = 8
+01:49:16.818 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered tenure = 15
+01:49:17.006 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Actual EMI = 4,778
+01:49:17.145 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Test Case testHomeLoanEMI PASSED successfully
+01:49:17.419 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 400000
+01:49:18.035 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 15
+01:49:18.125 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Closed the browser
+01:49:18.376 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 3
+01:49:18.448 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 13,866
+01:49:18.578 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:49:19.440 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:49:19.752 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Driver initialized successfully
+01:49:21.100 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:49:29.695 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered URL : https://emicalculator.net/
+01:49:29.696 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Started test execution => 
+01:49:30.604 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered loan Amount = 800000
+01:49:30.961 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:49:31.219 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered interest rate = 8
+01:49:31.911 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Entered tenure = 15
+01:49:31.999 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Actual EMI = 7,645
+01:49:32.062 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 450000
+01:49:32.164 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Test Case testHomeLoanEMI FAILED
+01:49:32.543 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 13.5
+01:49:32.946 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 2
+01:49:33.075 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 21,500
+01:49:33.160 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:49:33.801 [TestNG-test=EMI Test-1] INFO  testcases.HomeLoanEMITest - Closed the browser
+01:49:34.026 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:49:35.562 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Driver initialized successfully
+01:49:35.699 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Driver initialized successfully
+01:49:45.077 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered URL : https://emicalculator.net/
+01:49:46.889 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered loan Amount = 400000
+01:49:47.034 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered URL : https://emicalculator.net/
+01:49:47.283 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered interest rate = 12.5
+01:49:47.583 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered tenure = 5
+01:49:47.655 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Actual EMI = 8,999
+01:49:47.727 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Test Case testCarLoanEMI PASSED successfully
+01:49:48.097 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered loan Amount = 1000000
+01:49:48.561 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered interest rate = 12
+01:49:48.648 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Closed the browser
+01:49:49.207 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Entered tenure = 5
+01:49:49.285 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Actual EMI = 22,244
+01:49:49.370 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Test Case testPersonalLoanEMI PASSED successfully
+01:49:50.237 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Driver initialized successfully
+01:49:50.565 [TestNG-test=EMI Test-2] INFO  testcases.PersonalLoanEMITest - Closed the browser
+01:49:59.943 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered URL : https://emicalculator.net/
+01:50:01.288 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered loan Amount = 500000
+01:50:01.753 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered interest rate = 10
+01:50:02.441 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Entered tenure = 6
+01:50:02.605 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Actual EMI = 9,263
+01:50:02.810 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Test Case testCarLoanEMI PASSED successfully
+01:50:03.838 [TestNG-test=EMI Test-1] INFO  testcases.CarLoanEMI - Closed the browser

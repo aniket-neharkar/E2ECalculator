@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Loan Test" parallel="classes" thread-count="2">
+    <listeners>
+        <listener class-name="Listeners"></listener>
+    </listeners>
+    <test name="EMI Test">
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testcases.HomeLoanEMITest"></class>
+            <class name="testcases.PersonalLoanEMITest"></class>
+            <class name="testcases.CarLoanEMI"></class>
+        </classes>
+    </test>
+</suite>

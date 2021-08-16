@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 81.209 s <<< FAILURE! - in TestSuite
+testcases.HomeLoanEMITest.testHomeLoanEMI[800000, 8, 15, 7,545, 5,76,039](3)  Time elapsed: 1.198 s  <<< FAILURE!
+java.lang.AssertionError: expected [7,545] but found [7,645]
+	at testcases.HomeLoanEMITest.testHomeLoanEMI(HomeLoanEMITest.java:46)
+

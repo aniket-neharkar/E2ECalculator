@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Loan Test]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Listeners"/>
+  </listeners>
+  <test thread-count="2" parallel="classes" name="EMI Test(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcases.HomeLoanEMITest">
+        <methods>
+          <include name="initialize"/>
+          <include name="testHomeLoanEMI" invocation-numbers="2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.HomeLoanEMITest -->
+    </classes>
+  </test> <!-- EMI Test(failed) -->
+</suite> <!-- Failed suite [Loan Test] -->

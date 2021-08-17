@@ -11,13 +11,27 @@
       </run>
     </groups>
     <classes>
+      <class name="testcases.CarLoanEMI">
+        <methods>
+          <include name="testCarLoanEMI"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- testcases.CarLoanEMI -->
       <class name="testcases.HomeLoanEMITest">
         <methods>
           <include name="initialize"/>
-          <include name="testHomeLoanEMI" invocation-numbers="2"/>
+          <include name="testHomeLoanEMI"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- testcases.HomeLoanEMITest -->
+      <class name="testcases.PersonalLoanEMITest">
+        <methods>
+          <include name="initialize"/>
+          <include name="testPersonalLoanEMI"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.PersonalLoanEMITest -->
     </classes>
   </test> <!-- EMI Test(failed) -->
 </suite> <!-- Failed suite [Loan Test] -->

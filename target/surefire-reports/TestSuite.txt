@@ -1,8 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 81.209 s <<< FAILURE! - in TestSuite
-testcases.HomeLoanEMITest.testHomeLoanEMI[800000, 8, 15, 7,545, 5,76,039](3)  Time elapsed: 1.198 s  <<< FAILURE!
-java.lang.AssertionError: expected [7,545] but found [7,645]
-	at testcases.HomeLoanEMITest.testHomeLoanEMI(HomeLoanEMITest.java:46)
+Tests run: 27, Failures: 3, Errors: 0, Skipped: 24, Time elapsed: 3.013 s <<< FAILURE! - in TestSuite
+testcases.HomeLoanEMITest.initialize  Time elapsed: 2.269 s  <<< FAILURE!
+java.lang.NullPointerException
+	at testcases.HomeLoanEMITest.initialize(HomeLoanEMITest.java:25)
+
+testcases.PersonalLoanEMITest.initialize  Time elapsed: 2.271 s  <<< FAILURE!
+java.lang.NullPointerException
+	at testcases.PersonalLoanEMITest.initialize(PersonalLoanEMITest.java:24)
+
+testcases.CarLoanEMI.initialize  Time elapsed: 2.276 s  <<< FAILURE!
+java.lang.NullPointerException
+	at testcases.CarLoanEMI.initialize(CarLoanEMI.java:24)
 

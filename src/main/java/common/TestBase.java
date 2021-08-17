@@ -33,12 +33,15 @@ public class TestBase {
         }catch (Exception e)
         {
             System.out.println(e.getMessage());
-
-        }finally {
-            System.out.println("Browser is not selected from Jenkins or from Maven command");
-            System.out.println("Test will run from browser mentioned in config.properties file");
-            browser = prop.getProperty("browser");
         }
+
+
+            if (browser==null)
+            {
+                System.out.println("Browser is not selected from Jenkins or from Maven command");
+                System.out.println("Test will run from browser mentioned in config.properties file");
+                browser = prop.getProperty("browser");
+            }
 
         if (browser.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/resources/drivers/chromedriver.exe");

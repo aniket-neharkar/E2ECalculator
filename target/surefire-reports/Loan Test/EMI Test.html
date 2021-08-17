@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>EMI Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/9</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 16 01:48:45 IST 2021</td>
+<td>Started on:</td><td>Tue Aug 17 12:58:27 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>78 seconds (78730 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (81 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>Sanity </td>
 </tr><tr>
@@ -68,34 +68,33 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.HomeLoanEMITest.testHomeLoanEMI()'><b>testHomeLoanEMI</b><br>Test class: testcases.HomeLoanEMITest<br>Parameters: 800000, 8, 15, 7,545, 5,76,039</td>
-<td><div><pre>java.lang.AssertionError: expected [7,545] but found [7,645]
-	at testcases.HomeLoanEMITest.testHomeLoanEMI(HomeLoanEMITest.java:46)
+<td title='testcases.HomeLoanEMITest.initialize()'><b>initialize</b><br>Test class: testcases.HomeLoanEMITest</td>
+<td><div><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.HomeLoanEMITest.initialize(HomeLoanEMITest.java:25)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1467912068", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1467912068'><pre>java.lang.AssertionError: expected [7,545] but found [7,645]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at org.testng.Assert.assertEquals(Assert.java:463)
-	at testcases.HomeLoanEMITest.testHomeLoanEMI(HomeLoanEMITest.java:46)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace181191757", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace181191757'><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.HomeLoanEMITest.initialize(HomeLoanEMITest.java:25)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
@@ -104,55 +103,439 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre></div></td>
-<td>2</td>
+<td>0</td>
 <td>testcases.HomeLoanEMITest@4a9e6faf</td></tr>
+<tr>
+<td title='testcases.PersonalLoanEMITest.initialize()'><b>initialize</b><br>Test class: testcases.PersonalLoanEMITest</td>
+<td><div><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.PersonalLoanEMITest.initialize(PersonalLoanEMITest.java:24)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1133801921", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1133801921'><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.PersonalLoanEMITest.initialize(PersonalLoanEMITest.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>testcases.PersonalLoanEMITest@2c95ac9e</td></tr>
+<tr>
+<td title='testcases.CarLoanEMI.initialize()'><b>initialize</b><br>Test class: testcases.CarLoanEMI</td>
+<td><div><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.CarLoanEMI.initialize(CarLoanEMI.java:24)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1265895240", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1265895240'><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.CarLoanEMI.initialize(CarLoanEMI.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>testcases.CarLoanEMI@4e4efc1b</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.CarLoanEMI.testCarLoanEMI()'><b>testCarLoanEMI</b><br>Test class: testcases.CarLoanEMI<br>Parameters: 400000, 12.5, 5, 8,999, 1,39,951</td>
+<td title='testcases.HomeLoanEMITest.initialize()'><b>initialize</b><br>Test class: testcases.HomeLoanEMITest</td>
 <td></td>
-<td>2</td>
-<td>testcases.CarLoanEMI@4e4efc1b</td></tr>
-<tr>
-<td title='testcases.CarLoanEMI.testCarLoanEMI()'><b>testCarLoanEMI</b><br>Test class: testcases.CarLoanEMI<br>Parameters: 500000, 10, 6, 9,263, 1,66,930</td>
-<td></td>
-<td>2</td>
-<td>testcases.CarLoanEMI@4e4efc1b</td></tr>
-<tr>
-<td title='testcases.HomeLoanEMITest.testHomeLoanEMI()'><b>testHomeLoanEMI</b><br>Test class: testcases.HomeLoanEMITest<br>Parameters: 500000, 7.5, 10, 5,935, 2,12,211</td>
-<td></td>
-<td>2</td>
+<td>0</td>
 <td>testcases.HomeLoanEMITest@4a9e6faf</td></tr>
 <tr>
-<td title='testcases.HomeLoanEMITest.testHomeLoanEMI()'><b>testHomeLoanEMI</b><br>Test class: testcases.HomeLoanEMITest<br>Parameters: 500000, 8, 15, 4,778, 3,60,087</td>
+<td title='testcases.PersonalLoanEMITest.initialize()'><b>initialize</b><br>Test class: testcases.PersonalLoanEMITest</td>
 <td></td>
-<td>2</td>
+<td>0</td>
+<td>testcases.PersonalLoanEMITest@2c95ac9e</td></tr>
+<tr>
+<td title='testcases.HomeLoanEMITest.initialize()'><b>initialize</b><br>Test class: testcases.HomeLoanEMITest</td>
+<td></td>
+<td>0</td>
 <td>testcases.HomeLoanEMITest@4a9e6faf</td></tr>
 <tr>
-<td title='testcases.PersonalLoanEMITest.testPersonalLoanEMI()'><b>testPersonalLoanEMI</b><br>Test class: testcases.PersonalLoanEMITest<br>Parameters: 500000, 13, 4, 13,414, 1,43,860</td>
+<td title='testcases.PersonalLoanEMITest.initialize()'><b>initialize</b><br>Test class: testcases.PersonalLoanEMITest</td>
 <td></td>
-<td>2</td>
+<td>0</td>
 <td>testcases.PersonalLoanEMITest@2c95ac9e</td></tr>
 <tr>
-<td title='testcases.PersonalLoanEMITest.testPersonalLoanEMI()'><b>testPersonalLoanEMI</b><br>Test class: testcases.PersonalLoanEMITest<br>Parameters: 400000, 15, 3, 13,866, 99,181</td>
+<td title='testcases.PersonalLoanEMITest.initialize()'><b>initialize</b><br>Test class: testcases.PersonalLoanEMITest</td>
 <td></td>
-<td>2</td>
+<td>0</td>
 <td>testcases.PersonalLoanEMITest@2c95ac9e</td></tr>
 <tr>
-<td title='testcases.PersonalLoanEMITest.testPersonalLoanEMI()'><b>testPersonalLoanEMI</b><br>Test class: testcases.PersonalLoanEMITest<br>Parameters: 450000, 13.5, 2, 21,500, 65,992</td>
+<td title='testcases.CarLoanEMI.initialize()'><b>initialize</b><br>Test class: testcases.CarLoanEMI</td>
 <td></td>
-<td>2</td>
+<td>0</td>
+<td>testcases.CarLoanEMI@4e4efc1b</td></tr>
+<tr>
+<td title='testcases.HomeLoanEMITest.tearDown()'><b>tearDown</b><br>Test class: testcases.HomeLoanEMITest</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomeLoanEMITest@4a9e6faf</td></tr>
+<tr>
+<td title='testcases.PersonalLoanEMITest.tearDown()'><b>tearDown</b><br>Test class: testcases.PersonalLoanEMITest</td>
+<td></td>
+<td>0</td>
 <td>testcases.PersonalLoanEMITest@2c95ac9e</td></tr>
 <tr>
-<td title='testcases.PersonalLoanEMITest.testPersonalLoanEMI()'><b>testPersonalLoanEMI</b><br>Test class: testcases.PersonalLoanEMITest<br>Parameters: 1000000, 12, 5, 22,244, 3,34,667</td>
+<td title='testcases.HomeLoanEMITest.tearDown()'><b>tearDown</b><br>Test class: testcases.HomeLoanEMITest</td>
 <td></td>
-<td>2</td>
+<td>0</td>
+<td>testcases.HomeLoanEMITest@4a9e6faf</td></tr>
+<tr>
+<td title='testcases.PersonalLoanEMITest.tearDown()'><b>tearDown</b><br>Test class: testcases.PersonalLoanEMITest</td>
+<td></td>
+<td>0</td>
+<td>testcases.PersonalLoanEMITest@2c95ac9e</td></tr>
+<tr>
+<td title='testcases.HomeLoanEMITest.tearDown()'><b>tearDown</b><br>Test class: testcases.HomeLoanEMITest</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomeLoanEMITest@4a9e6faf</td></tr>
+<tr>
+<td title='testcases.PersonalLoanEMITest.tearDown()'><b>tearDown</b><br>Test class: testcases.PersonalLoanEMITest</td>
+<td></td>
+<td>0</td>
+<td>testcases.PersonalLoanEMITest@2c95ac9e</td></tr>
+<tr>
+<td title='testcases.PersonalLoanEMITest.tearDown()'><b>tearDown</b><br>Test class: testcases.PersonalLoanEMITest</td>
+<td></td>
+<td>0</td>
+<td>testcases.PersonalLoanEMITest@2c95ac9e</td></tr>
+<tr>
+<td title='testcases.CarLoanEMI.tearDown()'><b>tearDown</b><br>Test class: testcases.CarLoanEMI</td>
+<td></td>
+<td>0</td>
+<td>testcases.CarLoanEMI@4e4efc1b</td></tr>
+<tr>
+<td title='testcases.CarLoanEMI.tearDown()'><b>tearDown</b><br>Test class: testcases.CarLoanEMI</td>
+<td></td>
+<td>0</td>
+<td>testcases.CarLoanEMI@4e4efc1b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.CarLoanEMI.testCarLoanEMI()'><b>testCarLoanEMI</b><br>Test class: testcases.CarLoanEMI</td>
+<td><div><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.CarLoanEMI.initialize(CarLoanEMI.java:24)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1450569579", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1450569579'><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.CarLoanEMI.initialize(CarLoanEMI.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>testcases.CarLoanEMI@4e4efc1b</td></tr>
+<tr>
+<td title='testcases.CarLoanEMI.testCarLoanEMI()'><b>testCarLoanEMI</b><br>Test class: testcases.CarLoanEMI</td>
+<td><div><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.CarLoanEMI.initialize(CarLoanEMI.java:24)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace626484395", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace626484395'><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.CarLoanEMI.initialize(CarLoanEMI.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>testcases.CarLoanEMI@4e4efc1b</td></tr>
+<tr>
+<td title='testcases.HomeLoanEMITest.testHomeLoanEMI()'><b>testHomeLoanEMI</b><br>Test class: testcases.HomeLoanEMITest</td>
+<td><div><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.HomeLoanEMITest.initialize(HomeLoanEMITest.java:25)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1656436393", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1656436393'><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.HomeLoanEMITest.initialize(HomeLoanEMITest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>testcases.HomeLoanEMITest@4a9e6faf</td></tr>
+<tr>
+<td title='testcases.HomeLoanEMITest.testHomeLoanEMI()'><b>testHomeLoanEMI</b><br>Test class: testcases.HomeLoanEMITest</td>
+<td><div><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.HomeLoanEMITest.initialize(HomeLoanEMITest.java:25)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace520834943", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace520834943'><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.HomeLoanEMITest.initialize(HomeLoanEMITest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>testcases.HomeLoanEMITest@4a9e6faf</td></tr>
+<tr>
+<td title='testcases.HomeLoanEMITest.testHomeLoanEMI()'><b>testHomeLoanEMI</b><br>Test class: testcases.HomeLoanEMITest</td>
+<td><div><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.HomeLoanEMITest.initialize(HomeLoanEMITest.java:25)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace309456288", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace309456288'><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.HomeLoanEMITest.initialize(HomeLoanEMITest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>testcases.HomeLoanEMITest@4a9e6faf</td></tr>
+<tr>
+<td title='testcases.PersonalLoanEMITest.testPersonalLoanEMI()'><b>testPersonalLoanEMI</b><br>Test class: testcases.PersonalLoanEMITest</td>
+<td><div><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.PersonalLoanEMITest.initialize(PersonalLoanEMITest.java:24)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1896747643", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1896747643'><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.PersonalLoanEMITest.initialize(PersonalLoanEMITest.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>testcases.PersonalLoanEMITest@2c95ac9e</td></tr>
+<tr>
+<td title='testcases.PersonalLoanEMITest.testPersonalLoanEMI()'><b>testPersonalLoanEMI</b><br>Test class: testcases.PersonalLoanEMITest</td>
+<td><div><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.PersonalLoanEMITest.initialize(PersonalLoanEMITest.java:24)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace441448811", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace441448811'><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.PersonalLoanEMITest.initialize(PersonalLoanEMITest.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>testcases.PersonalLoanEMITest@2c95ac9e</td></tr>
+<tr>
+<td title='testcases.PersonalLoanEMITest.testPersonalLoanEMI()'><b>testPersonalLoanEMI</b><br>Test class: testcases.PersonalLoanEMITest</td>
+<td><div><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.PersonalLoanEMITest.initialize(PersonalLoanEMITest.java:24)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1251827935", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1251827935'><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.PersonalLoanEMITest.initialize(PersonalLoanEMITest.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>testcases.PersonalLoanEMITest@2c95ac9e</td></tr>
+<tr>
+<td title='testcases.PersonalLoanEMITest.testPersonalLoanEMI()'><b>testPersonalLoanEMI</b><br>Test class: testcases.PersonalLoanEMITest</td>
+<td><div><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.PersonalLoanEMITest.initialize(PersonalLoanEMITest.java:24)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1142447845", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1142447845'><pre>java.lang.NullPointerException
+	at common.TestBase.initializeDriver(TestBase.java:40)
+	at testcases.PersonalLoanEMITest.initialize(PersonalLoanEMITest.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
 <td>testcases.PersonalLoanEMITest@2c95ac9e</td></tr>
 </table><p>
 </body>

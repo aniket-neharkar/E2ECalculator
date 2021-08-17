@@ -30,8 +30,11 @@ public class TestBase {
 
         try {
             browser = System.getProperty("browser");
-        }catch (NullPointerException e)
+        }catch (Exception e)
         {
+            System.out.println(e.getMessage());
+
+        }finally {
             System.out.println("Browser is not selected from Jenkins or from Maven command");
             System.out.println("Test will run from browser mentioned in config.properties file");
             browser = prop.getProperty("browser");
